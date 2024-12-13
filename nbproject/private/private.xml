@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/An/Desktop/clone%20check/PRJ301-2024_group8/ASM/src/java/dto/OrderDTO.java</file>
+            <file>file:/C:/Users/An/Desktop/clone%20check/PRJ301-2024_group8/ASM/src/java/dto/OrderDetailDTO.java</file>
+            <file>file:/C:/Users/An/Desktop/clone%20check/PRJ301-2024_group8/ASM/web/admin_order_management.jsp</file>
+            <file>file:/C:/Users/An/Desktop/clone%20check/PRJ301-2024_group8/ASM/src/java/controller/ShoppingController.java</file>
+            <file>file:/C:/Users/An/Desktop/clone%20check/PRJ301-2024_group8/ASM/web/order_list.jsp</file>
+            <file>file:/C:/Users/An/Desktop/clone%20check/PRJ301-2024_group8/ASM/src/java/dao/ProductDAO.java</file>
+            <file>file:/C:/Users/An/Desktop/clone%20check/PRJ301-2024_group8/ASM/src/java/controller/TransactionHistoryController.java</file>
+            <file>file:/C:/Users/An/Desktop/clone%20check/PRJ301-2024_group8/ASM/src/java/controller/Admin_ProductController.java</file>
+            <file>file:/C:/Users/An/Desktop/clone%20check/PRJ301-2024_group8/ASM/src/java/dto/ProductDTO.java</file>
+            <file>file:/C:/Users/An/Desktop/clone%20check/PRJ301-2024_group8/ASM/web/edit_product.jsp</file>
+            <file>file:/C:/Users/An/Desktop/clone%20check/PRJ301-2024_group8/ASM/web/edit_user.jsp</file>
+            <file>file:/C:/Users/An/Desktop/clone%20check/PRJ301-2024_group8/ASM/web/edit_address.jsp</file>
+            <file>file:/C:/Users/An/Desktop/clone%20check/PRJ301-2024_group8/ASM/web/shopping_cart.jsp</file>
+            <file>file:/C:/Users/An/Desktop/clone%20check/PRJ301-2024_group8/ASM/web/product_details.jsp</file>
+            <file>file:/C:/Users/An/Desktop/clone%20check/PRJ301-2024_group8/ASM/web/edit_account.jsp</file>
+            <file>file:/C:/Users/An/Desktop/clone%20check/PRJ301-2024_group8/ASM/src/java/dao/OrderDAO.java</file>
+            <file>file:/C:/Users/An/Desktop/clone%20check/PRJ301-2024_group8/ASM/src/java/controller/ProductDetailsController.java</file>
+            <file>file:/C:/Users/An/Desktop/clone%20check/PRJ301-2024_group8/ASM/web/edit_password.jsp</file>
+            <file>file:/C:/Users/An/Desktop/clone%20check/PRJ301-2024_group8/ASM/src/java/dto/UserDTO.java</file>
+            <file>file:/C:/Users/An/Desktop/clone%20check/PRJ301-2024_group8/ASM/web/WEB-INF/web.xml</file>
+        </group>
+    </open-files>
+</project-private>

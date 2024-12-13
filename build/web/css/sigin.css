@@ -1,0 +1,33 @@
+html,
+
+.form-signini {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signini .checkbox {
+  font-weight: 400;
+}
+
+.form-signini .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signini input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signini input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+body{
+   background: url("/phone.jdg")no-repeat center center fixed;
+    background-size: cover;
+}
