@@ -1,14 +1,5 @@
 
-Name of system: TuanShoes
-
-Member:
-
-- SE170186: Phan Cảnh Tuấn
-  
-- SE172312: Đặng Minh Tuấn An
-  
-- SE151518: Trần Hoàng Tuấn
-
+Name of system: Shoe Online
 
 1/ Customers:
 
@@ -40,7 +31,7 @@ CHECK OUT: Users will see khjkjhk amount they need to pay for each items they or
 
 ![](img/checkout-page.png)
 
-ORDER LIST: user can view order history and can q
+ORDER LIST: user can view order history
 
 ![](img/Order-detail-page.png)
 
