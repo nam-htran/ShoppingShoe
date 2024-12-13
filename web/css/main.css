@@ -1,0 +1,182 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 10, 2024, 3:05:03 PM
+    Author     : Admin
+*/
+
+.login {
+    display: flex;
+    justify-content: center; /* Căn theo chiều ngang */
+    align-items: center; /* Căn theo chiều dọc */
+    /* Chiều cao của container, tức là chiều cao của viewport */
+}
+
+
+.loginform{
+    border: 2px solid black;
+    height: 400px;
+    font-size: 2.5rem;
+    text-align: center;
+    width: fit-content;
+}
+.input-form{
+    display: flex;
+    justify-content: center; /* Căn giữa các phần tử theo chiều ngang */
+    align-items: center; /* Căn giữa các phần tử theo chiều dọc */
+    flex-direction: column;
+}
+.input-box {
+    width: 100%;    
+    margin-bottom: 5px;
+}
+
+.login-button{
+    margin: 10px;
+}
+
+
+
+
+
+/* Đảm bảo các phần tử có cùng chiều cao */
+.prouduct-store {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.store-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.store-body {
+    flex: 1; /* Chiếm toàn bộ chiều cao còn lại */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.store-body h3, .store-body h4 {
+    margin: 0;
+}
+
+/* Kiểm soát khoảng cách giữa các phần tử */
+.store-btns, .add-to-cart {
+    margin-top: auto; /* Đẩy xuống cuối */
+}
+
+/* Đảm bảo bố cục lưới */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-4, .col-xs-6 {
+    box-sizing: border-box;
+    padding: 15px; /* Đảm bảo khoảng cách đều */
+}
+
+
+button  {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button :disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#prevButton,
+#nextButton {
+    background-color: #D10024;
+    color: white;
+}
+
+button {
+    height: 100%;
+    width: 40px;
+    background-color: #f0f0f0; /* Màu nền nhạt cho các nút */
+    border: 1px solid #ccc;    /* Đường viền cho các nút */
+    margin: 2px;               /* Khoảng cách giữa các nút */
+    padding: 5px 10px;         /* Khoảng cách bên trong nút */
+    cursor: pointer;           /* Con trỏ chuột khi hover */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Hiệu ứng chuyển đổi màu */
+}
+
+#pageButtons button.active {
+    background-color: #d0011b; /* Màu nền đỏ cho nút đang được chọn */
+    color: white;              /* Màu chữ trắng cho nút đang được chọn */
+}
+
+#pageButtons button:hover {
+    background-color: #ddd;    /* Màu nền khi hover */
+}
+
+#pageButtons span {
+    padding: 0 10px;
+}
+
+#pageButtons {
+    display: inline-block;
+    height: 100%;
+
+}
+
+.pagination-container {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.page-btn{
+    height: 40px;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.aside {
+    position: relative;
+    display: inline-block;
+}
+
+
+h3{
+    color: #D10024;
+}
+
+.product-option {
+    padding: 10px 15px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+}
+
+.product-option:hover {
+    background-color: #f0f0f0;
+    border-color: #aaa;
+}
+
+.product-option.selected {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+
+
+
+
+
+
+
+

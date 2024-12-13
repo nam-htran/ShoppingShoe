@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <!-- Servlet Definitions -->
+    <servlet>
+        <servlet-name>HomepageController</servlet-name>
+        <servlet-class>controller.HomepageController</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HomepageController</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>LoginController</servlet-name>
+        <servlet-class>controller.LoginController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginController</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>RegisterController</servlet-name>
+        <servlet-class>controller.RegisterController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegisterController</servlet-name>
+        <url-pattern>/Register</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>AccountInfoController</servlet-name>
+        <servlet-class>controller.AccountInfoController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AccountInfoController</servlet-name>
+        <url-pattern>/user-info</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>UpdateAccountController</servlet-name>
+        <servlet-class>controller.UpdateAccountController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateAccountController</servlet-name>
+        <url-pattern>/update-account-info</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>UpdateAddressController</servlet-name>
+        <servlet-class>controller.UpdateAddressController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateAddressController</servlet-name>
+        <url-pattern>/update-account-address</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>UpdatePasswordController</servlet-name>
+        <servlet-class>controller.UpdatePasswordController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdatePasswordController</servlet-name>
+        <url-pattern>/update-account-password</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>LogoutController</servlet-name>
+        <servlet-class>controller.LogoutController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogoutController</servlet-name>
+        <url-pattern>/Logout</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>SearchController</servlet-name>
+        <servlet-class>controller.SearchController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchController</servlet-name>
+        <url-pattern>/SearchController</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ProductDetailsController</servlet-name>
+        <servlet-class>controller.ProductDetailsController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ProductDetailsController</servlet-name>
+        <url-pattern>/product-details</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    <servlet>
+        <servlet-name>Admin_LoginController</servlet-name>
+        <servlet-class>controller.Admin_LoginController</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Admin_LoginController</servlet-name>
+        <url-pattern>/admin</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Admin_ProductController</servlet-name>
+        <servlet-class>controller.Admin_ProductController</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Admin_ProductController</servlet-name>
+        <url-pattern>/admin_product_management</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ShoppingController</servlet-name>
+        <servlet-class>controller.ShoppingController</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ShoppingController</servlet-name>
+        <url-pattern>/shopping</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Admin_UserController</servlet-name>
+        <servlet-class>controller.Admin_UserController</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Admin_UserController</servlet-name>
+        <url-pattern>/admin_user_management</url-pattern> 
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Admin_ProductController</servlet-name>
+        <servlet-class>controller.Admin_ProductController</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Admin_ProductController</servlet-name>
+        <url-pattern>/admin_edit_product</url-pattern> 
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>TransactionHistoryController</servlet-name>
+        <servlet-class>controller.TransactionHistoryController</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>TransactionHistoryController</servlet-name>
+        <url-pattern>/transaction-history</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Admin_OrderController</servlet-name>
+        <servlet-class>controller.Admin_OrderController</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Admin_OrderController</servlet-name>
+        <url-pattern>/admin_order_management</url-pattern>
+    </servlet-mapping>
+    
+    
+       
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+</web-app>
